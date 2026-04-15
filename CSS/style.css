@@ -106,13 +106,20 @@ nav{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    text-align: center;
     background-color: var(--roxo);
 }
 
 .img-login{
-    width: 30%;
+    width: 100%;
     height: 100%;
     margin-bottom: 20px;
     border-right: 3px solid var(--preto);
+}
+
+.form-login{
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }

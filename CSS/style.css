@@ -53,8 +53,6 @@ nav{
     cursor: pointer;
 }
 
-.options
-
 .buttons-nav{
     display: flex;
     gap: 10px;
@@ -67,17 +65,17 @@ nav{
     border-radius: 5px;
     border: 2px solid var(--azul);
     cursor: pointer;
-    transition: 25ms;
+    transition: 150ms ease;
 }
 
 .buttons-nav #cadastrar:hover{
     background-color: var(--branco);
     color: var(--preto);
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 0;
     border: 2px solid var(--azul);
     cursor: pointer;
-    transition: 25ms;
+    transition: 150ms ease;
 }
 
 .buttons-nav #login{
@@ -87,17 +85,17 @@ nav{
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    transition: 25ms;
+    transition: 150ms ease;
 }
 
 .buttons-nav #login:hover{
     background-color: var(--azul);
     color: var(--branco);
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 0;
     border: none;
     cursor: pointer;
-    transition: 25ms;
+    transition: 150ms ease;
 }
 
 .container{
@@ -122,4 +120,32 @@ nav{
     justify-content: center;
     display: flex;
     flex-direction: column;
+}
+
+.input-login{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--cinza);
+    transition: border 0.3s ease;
+}
+
+.input-login:hover{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    border: 1px solid var(--cinza);
+    transition: border 0.3s ease;
+}
+
+.button-login{
+    background-color: var(--azul);
+    color: var(--branco);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 150ms ease;
 }
